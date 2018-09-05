@@ -8,3 +8,5 @@ If the remains turned out to be 2, we apply the same formula above, but we chang
 If it's an odd number, we'll use the else function, where the formula is still similar however we do the increasing and decreasing before the floor division.
 
 The first output and second output is the numerator and denominator, respectively.
+
+## 2. Tricky Alchemy ([912 A](http://codeforces.com/contest/912/problem/A))
