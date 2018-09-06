@@ -18,13 +18,13 @@ The problem gives us details below:
 - 1 Green Ball requires 1 Yellow Crystal and 1 Blue Crystal (Q = ab)
 - 1 Blue Ball requires 3 Blue Crystals (R = 3b)
 In the "left"-side of the formula we see the Balls that requires some Yellow crystals,
-```python
+```
 (2*P+Q-a,0)
 ```
 P (Yellow Ball) requires 2a (Yellow Crystals), and Q requires only one Yellow Crystals. We sum the amount of crystals that we need, then we subtract that amount from the crystals that we already have, in which now we know how much Yellow crystals we're lacking of.
 
 Same is done with "right"-side of the formula,
-```python
+```
 (3*R+Q-b, 0)
 ```
 R requires 3b, and Q only requires one Yellow Crystals. We do the exact same as above, sum the amount that we need, then we subtract the amount needed from the crystals that we already have.
