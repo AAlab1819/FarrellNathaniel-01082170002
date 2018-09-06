@@ -1,3 +1,11 @@
+'''
+a = Yellow Crystal
+b = Blue Crystal
+P = Yellow Ball
+Q = Green Ball
+R = Blue Ball
+'''
+
 a, b = list(map(int, input().split()))
 P, Q, R = list(map(int, input().split()))
 
