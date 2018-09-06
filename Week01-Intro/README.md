@@ -27,3 +27,15 @@ Same is done with "right"-side of the formula,
 ```
 R requires 3b, and Q only requires one Yellow Crystals. We do the exact same as above, sum the amount that we need, then we subtract the amount needed from the crystals that we already have.
 
+## 3. Diverse Team ([988 A](http://codeforces.com/contest/988/problem/A))
+There are n amount of students in a class, with various ratings. We have to know the possibility to form a team consisting of students with distinct ratings, with size of k. If it's possible to form a diverse team, we have to print YES and print one example of a team with the ratings. The amount of students in the class, the size of the team, and the ratings are user-inputted.
+
+The user inputs their amount of students and their size of the team, then on the next input they have to fill the ratings of the students. The amount of ratings has to equal the amount of n.
+
+I define **team** as the list of ratings that have been inputted (a) and set is used to make sure that the function only checks different numbers in the list of ratings, since the problem requires the team has to have distinct ratings.
+
+If the length of the **team** is less than the user-inputted k, the program will print "NO". However, if the length is more or equal to the size, "YES" will be printed, and an example of the the team of the said ratings will be printed as well below it.
+
+
+
+
