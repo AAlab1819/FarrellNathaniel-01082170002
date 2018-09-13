@@ -23,3 +23,35 @@ First we input *s* as Kirito's starting strength, and enter a space to separate 
 On the next line we input each dragon's strength as *dragonStrength*, and its reward as *bonusStrength*, which Kirito would get if he manages to beat the dragon holding *bonusStrength*.
 
 If Kirito survives against all the dragons (the amount depends on the *n* the user inputted before), he passes the level and "YES" will be printed. But if he dies, programs stops and "NO" is printed.
+
+## 3. Oath of the Night's Watch ([768 A](http://codeforces.com/problemset/problem/768/A))
+[Submission](http://codeforces.com/problemset/submission/768/42835860)  
+Sorting algorithm: Comb Sort  
+Jon is assigned to support the stewards. The amount of stewards is defined as *n*. Jon only supports steward if at least someone else with higher value than that steward's value and lower value than that steward's value exists. 
+
+So,
+```
+3 5
+```
+This cannot work because both 3 and 5 doesn't fill the conditions required by the problem. There are no numbers higher than 5, and no numbers lower than 3. Therefore *unsupportableStewards* is 0.
+
+```
+3 4 5
+```
+4 fills the required as conditions as 3 < 4 and 4 > 5. However only 1 number fills the criteria, so 1 is the answer.
+
+This doesn't mean every number than is in between two number works.
+```
+3 3 5
+```
+This array will not work because 3 doesn't fill the condition of 3 < 3. Therefore 0 is printed.
+
+The way this works is by counting how many unsupportableStewards are there, by subtracting the amount of unsupportableStewards from amountStewards. So in:
+```
+7 5 3 8 3
+```
+After it's sorted, to be
+```
+3 3 5 7 8
+```
+amountStewards is 5, and the unsupportableStewards is 3 (3, 3, 8). The answer is 2 (5, 7)
