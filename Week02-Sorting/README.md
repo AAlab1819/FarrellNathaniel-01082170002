@@ -2,7 +2,7 @@
 Sorting algorithm: Cocktail Sort
 ## 2. Dragons ([230 A](http://codeforces.com/problemset/problem/230/A))
 [Submission](http://codeforces.com/contest/230/submission/42834394)  
-Sorting algorithm: Shell Sort
+Sorting algorithm: Shell Sort  
 Kirito is stuck in a level in an MMORPG. He has to beat dragons in the level in order to progress to the next level.
 
 When we start, Kirito has *s* as his starting strength stat. We get to enter the amount of dragons (*n*) on a level. As he beats *dragons*, he will get *bonusStrength* from each dragon. Each dragons also has their own *dragonStrength*, and if Kirito's strength (*s*) is less than the *dragonStrength*, he dies, and the program prints "NO". However if his strength is higher than the dragon's strength, he wins and the program prints "YES". *s*, *n*, *dragonStrength*, and *bonusStrength* is user-inputted.
