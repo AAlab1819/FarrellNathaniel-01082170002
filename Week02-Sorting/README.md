@@ -7,7 +7,7 @@ For an example, there are 6 secretaries, and the callIDs **after sorted** are sh
 '''
 0 1 1 7 7 10
 '''
-It means secretary 2 and secretary 3 have been using the Spyke system to communicate with each other. Now the program needs to determine how many calls like this have happened between all secretaries. The program finds how many duplicates in *x*, and after it's been found, print the amount (ans). If it turns out there was 3 or more numbers that is a duplicate (indicating a three-way (or more) call has happened), the director regards it as an system error and **-1** is printed. If no calls has ever happened, then print **0**.
+It means secretary 2 and secretary 3 have been using the Spyke system to communicate with each other. Now the program needs to determine how many calls like this have happened between all secretaries. The program finds how many duplicates in *x*, and after it's been found, print the amount (ans). If it turns out there was 3 or more numbers that is a duplicate (indicating a three-way (or more) call has happened), the director regards it as an system error and **-1** is printed. If no call has ever happened, then print **0**.
 
 
 ## 2. Dragons ([230 A](http://codeforces.com/problemset/problem/230/A))
