@@ -1,6 +1,6 @@
 ## 1. Spyke Talks ([291 A](http://codeforces.com/problemset/problem/291/A))
 [Submission](http://codeforces.com/contest/291/submission/42828410)  
-orting algorithm: Cocktail Sort  
+Sorting algorithm: Cocktail Sort  
 A director of a large corporation wants to know how many of his secretaries (amount is defined as *n*) are talking through the Spyke VoIP system. When a call between two people happens, a callID is shown (defined as *x*). The director wants to know how many calls happened between every secretary, however only two-way calls is allowed. Which means if there happens to be three of the same callID shown, a mistake has happened and the situation couldn't have happened in the first place. *n*, *x* is user-inputted.
 
 For an example, there are 6 secretaries, and the callIDs **after sorted** are shown like this
