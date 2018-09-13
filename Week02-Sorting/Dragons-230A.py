@@ -14,8 +14,8 @@ s, n = map(int, input().split())
 dragons = []
 possible = True
 for dragon in range(enemies):
-    strength, bonus = map(int, input().split())
-    dragons.append([strength, bonus])
+    dragonStrength, bonusStrength = map(int, input().split())
+    dragons.append([dragonStrength, bonusStrength])
 shellSort(dragons)
 for dragon in dragons:
     if dragon[0] >= s:
