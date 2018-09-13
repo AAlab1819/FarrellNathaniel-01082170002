@@ -1,1 +1,1 @@
-## 1. Spyke Talks ([291 A](http://codeforces.com/contest/291/problem/A))
+## 1. Spyke Talks ([291 A](http://codeforces.com/problemset/problem/291/A))
