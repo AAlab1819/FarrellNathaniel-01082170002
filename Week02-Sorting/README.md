@@ -46,7 +46,7 @@ This doesn't mean every number than is in between two number works.
 ```
 This array will not work because 3 doesn't fill the condition of 3 < 3. Therefore 0 is printed.
 
-The way this works is by counting how many unsupportableStewards are there, by subtracting the amount of unsupportableStewards from amountStewards. So in:
+The way this works is by counting how many *unsupportableStewards* are there, by subtracting the amount of *unsupportableStewards* from *amountStewards*. So in:
 ```
 7 5 3 8 3
 ```
@@ -54,4 +54,4 @@ After it's sorted, to be
 ```
 3 3 5 7 8
 ```
-amountStewards is 5, and the unsupportableStewards is 3 (3, 3, 8). The answer is 2 (5, 7)
+*amountStewards* is 5, and the *unsupportableStewards* is 3 (3, 3, 8). The answer is 2 (5, 7)
