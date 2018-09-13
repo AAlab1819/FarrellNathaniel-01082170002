@@ -1,7 +1,7 @@
 ## 1. Spyke Talks ([291 A](http://codeforces.com/problemset/problem/291/A))
 Sorting algorithm: Cocktail Sort
 ## 2. Dragons ([230 A](http://codeforces.com/problemset/problem/230/A))
-[Submission](http://codeforces.com/contest/230/submission/42834394)
+[Submission](http://codeforces.com/contest/230/submission/42834394)  
 Sorting algorithm: Shell Sort
 Kirito is stuck in a level in an MMORPG. He has to beat dragons in the level in order to progress to the next level.
 
