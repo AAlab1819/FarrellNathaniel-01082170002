@@ -13,7 +13,7 @@ def shellSort(arr):
 s, n = map(int, input().split())
 dragons = []
 possible = True
-for dragon in range(enemies):
+for dragon in range(n):
     dragonStrength, bonusStrength = map(int, input().split())
     dragons.append([dragonStrength, bonusStrength])
 shellSort(dragons)
