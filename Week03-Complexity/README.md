@@ -18,6 +18,6 @@ damagedDragons = damagedDragons + 1
 
 Once all the dragons have been counted, we print the final *damagedDragons*.
 
-Worst Case : O(n)
-Average Case : θ(n)
+Worst Case : O(n)  
+Average Case : θ(n)  
 Best Case : Ω(n)
