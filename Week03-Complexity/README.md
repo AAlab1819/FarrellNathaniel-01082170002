@@ -22,3 +22,6 @@ Once all the dragons have been counted, we print the final *damagedDragons*.
 Worst Case : O(n)  
 Average Case : θ(n)  
 Best Case : Ω(n)
+
+## 3. I Wanna Be the Guy ([469 A](http://codeforces.com/contest/469/problem/A))
+
