@@ -1,4 +1,4 @@
-## 1. Vanya and The Lanterns ([492 B](
+## 1. Vanya and The Lanterns ([492 B](http://codeforces.com/contest/492/problem/B))
 ## 2. Insomnia Cure ([148 A](http://codeforces.com/contest/148/problem/A))
 [Submission](http://codeforces.com/contest/148/submission/43086811)  
 The princess has some dragons who is trying to steal her. Instead, she beats them up. But does she actually beat them *all* up?
