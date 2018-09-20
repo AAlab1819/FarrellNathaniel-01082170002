@@ -1,6 +1,21 @@
 ## 1. Vanya and The Lanterns ([492 B](http://codeforces.com/contest/492/problem/B))
-[Submission](http://codeforces.com/contest/492/submission/43076955)
-Vanya wants to know the radius between *n* lanterns on a street length of *l*.
+[Submission](http://codeforces.com/contest/492/submission/43076955)  
+Vanya wants to know the minimum radius between *n* lanterns on a street length of *l* to be able to light the whole street.
+
+User now inputs *n* as the number of lanterns in the street, and *l* as the length of the whole street.  
+After that, user inputs a list consisted of the positions of which the lantern is placed in the street. 0 is also a possible position for the street.
+
+Now we find the highest distance of the lanterns, and declare it as *d*.
+```
+d = max(min(a), l - max(a))
+for i in range (n-1):
+    d = max(d, (a[i+1] - a[i]) / 2)
+```
+It will keep checking through all the list and which position has the most distance out of all of them gets printed.
+
+Worst Case: O(n log n)  
+Average Case: θ(n log n)  
+Best Case: Ω(n)
 
 
 ## 2. Insomnia Cure ([148 A](http://codeforces.com/contest/148/problem/A))
