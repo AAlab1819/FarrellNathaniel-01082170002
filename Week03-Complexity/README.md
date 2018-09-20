@@ -1,4 +1,8 @@
 ## 1. Vanya and The Lanterns ([492 B](http://codeforces.com/contest/492/problem/B))
+[Submission](http://codeforces.com/contest/492/submission/43076955)
+Vanya wants to know the radius between *n* lanterns on a street length of *l*.
+
+
 ## 2. Insomnia Cure ([148 A](http://codeforces.com/contest/148/problem/A))
 [Submission](http://codeforces.com/contest/148/submission/43086811)  
 The princess has some dragons who is trying to steal her. Instead, she beats them up. But does she actually beat them *all* up?
@@ -51,3 +55,7 @@ Now we combine both set of lists from *x* and *y* and we check the combined list
 if len(set(xy)) == n:
 ```
 If the set included all of *n*, we print "I become the guy.". If not, we print "Oh, my keyboard!".
+
+Worst Case : O(n)
+Average Case : θ(n)
+Best Case : Ω(n)\
