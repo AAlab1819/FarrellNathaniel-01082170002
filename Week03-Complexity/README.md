@@ -24,4 +24,30 @@ Average Case : θ(n)
 Best Case : Ω(n)
 
 ## 3. I Wanna Be the Guy ([469 A](http://codeforces.com/contest/469/problem/A))
+[Submission](http://codeforces.com/contest/469/submission/43115800)  
+Little X and Y is playing a game, it consists of *n* levels. X can only beat *x* levels of the game, while Y can only beat *y* levels of the game. Can they pass all levels to beat the game? 
 
+Levels (*n*), the amount of levels and the set of levels that X and Y can beat are user-inputted.
+
+We now must input a number to decide how many *n* levels there are in the game. After entering the first input, the user must now input the amount of levels X can beat (*x*). Enter one space, then user must input set of numbers which amount of set must equal to *x*.
+If the user inputs 
+```
+3 2 5 7
+```
+The first *3* is to decide how many levels can *x* beat, and [2, 5, 7] is the set of levels.  
+To exclude the first number from being checked, we enter
+```
+x = x.split(' ')[1:]
+```
+This way, x is now declared as the list of the inputted *x*, separated by spaces and excluded the first element of the list.  
+Now *x* should be
+```
+2 5 7
+```
+Do the same of above for Y.
+
+Now we combine both set of lists from *x* and *y* and we check the combined list to see if they all include all the numbers from 1 to *n*.
+```
+if len(set(xy)) == n:
+```
+If the set included all of *n*, we print "I become the guy.". If not, we print "Oh, my keyboard!".
