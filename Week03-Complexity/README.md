@@ -56,6 +56,6 @@ if len(set(xy)) == n:
 ```
 If the set included all of *n*, we print "I become the guy.". If not, we print "Oh, my keyboard!".
 
-Worst Case : O(n)
-Average Case : θ(n)
-Best Case : Ω(n)\
+Worst Case: O(n)  
+Average Case: θ(n)  
+Best Case: Ω(n)  
