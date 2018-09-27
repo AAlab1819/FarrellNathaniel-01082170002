@@ -27,7 +27,7 @@ example:
 ******
 *....*
 ******
-If Igor starts at (2, 2), he won't be able to move to the other cells which houses more empty cells.
+If Igor starts at (2, 2), he won't be able to move to (4, 2) even though it also houses empty cells.
 ```
 Then we make the museum walls. After that, the next input would be the starting positions.  
 If we use the above museum, if we start at (2, 2), Igor can see all the pictures on 4 directions (up, down, left, right) and he can move to another cell to see a picture that is not viewable from his previous positions. He can't see a picture from a diagonal angle.
