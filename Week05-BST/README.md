@@ -42,10 +42,10 @@ We have a rooted tree. We need to know if it's a spruce tree or not, by seeing i
 This is a spruce.
 ```
   / 2
-1 — 3 
-  \ 4   / 5
-      \ — 6
-        \ 7
+1 — 3  / 5
+  \ 4  — 6
+       \ 7
 ```
-This isn't a spruce because in the first vertices only 2 and 3 which is a leaf children.
-```
+This isn't a spruce because in the first vertices only 2 and 3 which is a leaf children, while the third children has more children on its own.
+
+If it's a spruce, we'll print "YES". Otherwise, "NO".
