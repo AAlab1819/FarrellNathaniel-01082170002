@@ -87,3 +87,5 @@ Input example 3 from problem page
 If it's a spruce, we'll print "YES". Otherwise, "NO".
 
 Complexity: Worst Case = O(n log n)
+
+###### Vertices is the plural form of Vertex. 
