@@ -23,8 +23,7 @@ This will output 3, because there are 3 groups in this arrangement of employees:
 - Employee 2 and 3
 - Employee 4
 
-Complexity:
-Worst Case = O(n log n)
+Complexity: Worst Case = O(n log n)
 
 ## 2. Registration System ([4 C](http://codeforces.com/contest/4/problem/C))  
 [Submission](http://codeforces.com/contest/4/submission/43793794)  
@@ -49,3 +48,5 @@ This is a spruce.
 This isn't a spruce because in the first vertices only 2 and 3 which is a leaf children, while the third children has more children on its own.
 
 If it's a spruce, we'll print "YES". Otherwise, "NO".
+
+Complexity: Worst Case = O(n log n)
