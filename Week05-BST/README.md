@@ -51,6 +51,8 @@ OK
 Phil2
 ```
 
+Complexity: Worst Case = O(n log n)
+
 ## 3. Christmas Spruce ([913 B](http://codeforces.com/contest/913/problem/B))  
 [Submission](http://codeforces.com/contest/913/submission/43794900)  
 We have a rooted tree. We need to know if it's a spruce tree or not, by seeing if every parent has a child that has at least 3 vertices which doesn't have any leaf children.
