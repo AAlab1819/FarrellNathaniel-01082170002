@@ -5,9 +5,9 @@ A company is going to hold a party, but they want all the employees to be in a s
 The first *n* input will decide how many employees there are in the company. The next input line will decide who is the manager of that employee in that *i*.  
 After inputting *n*, we'll start with first employee
 ```
-input 1: 2            #there are two employees
-input 2: -1           #Employee 1
-input 3: 1            #Employee 2 which boss is Employee 1
+input 1: 2            # there are two employees
+input 2: -1           # Employee 1
+input 3: 1            # Employee 2 which boss is Employee 1
 ```
 '-1' means employee in that position does not have any superiors. We are to output the amount of groups or how far until to the last superior.
 ```
@@ -74,14 +74,14 @@ The first input will decide how many *n* vertices will be on the tree. The progr
 
 Input example 3 from problem page
 ```
-8       #there are 8 vertices. Also automatically creates the first vertex
-1       #2, links to vertex 1
-1       #3, links to vertex 1  <——— no longer childrenless
-1       #4, links to vertex 1      | 
-1       #5, links to vertex 1      |
-3       #6, links to vertex 3  ————
-3       #7, links to vertex 3 
-3       #8, links to vertex 3 
+8       # there are 8 vertices. Also automatically creates the first vertex
+1       # 2, links to vertex 1
+1       # 3, links to vertex 1  <——— no longer childrenless
+1       # 4, links to vertex 1      | 
+1       # 5, links to vertex 1      |
+3       # 6, links to vertex 3  ————
+3       # 7, links to vertex 3 
+3       # 8, links to vertex 3 
 ```
 
 If it's a spruce, we'll print "YES". Otherwise, "NO".
