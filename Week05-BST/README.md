@@ -68,6 +68,20 @@ This is a spruce.
 ```
 This isn't a spruce because in the first vertices only 2 and 3 which is a leaf children, while the third children has more children on its own.
 
+The first input will decide how many *n* vertices will be on the tree. The program will keep asking input equal to *n*. These inputs will decide the the parent of that certain vertice on *i*-th.
+
+Input example 3 from problem page
+```
+8       #there are 8 vertices. Also automatically creates the first vertex
+1       #2, links to vertex 1
+1       #3, links to vertex 1
+1       #4, links to vertex 1
+1       #5, links to vertex 1
+3       #6, links to vertex 3
+3       #7, links to vertex 3
+3       #8, links to vertex 3
+```
+
 If it's a spruce, we'll print "YES". Otherwise, "NO".
 
 Complexity: Worst Case = O(n log n)
