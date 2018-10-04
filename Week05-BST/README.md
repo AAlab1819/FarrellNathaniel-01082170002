@@ -74,14 +74,14 @@ The first input will decide how many *n* vertices will be on the tree. The progr
 
 Input example 3 from problem page
 ```
-8       # there are 8 vertices. Also automatically creates the first vertex
-1       # 2, links to vertex 1
-1       # 3, links to vertex 1  <——— no longer childrenless
-1       # 4, links to vertex 1      | 
-1       # 5, links to vertex 1      |
-3       # 6, links to vertex 3  ————
-3       # 7, links to vertex 3 
-3       # 8, links to vertex 3 
+8                     # there are 8 vertices. Also automatically creates the first vertex
+1                     # 2, links to vertex 1
+1                     # 3, links to vertex 1  <——— no longer childrenless
+1                     # 4, links to vertex 1      | 
+1                     # 5, links to vertex 1      |
+3                     # 6, links to vertex 3  ————
+3                     # 7, links to vertex 3 
+3                     # 8, links to vertex 3 
 ```
 
 If it's a spruce, we'll print "YES". Otherwise, "NO".
