@@ -27,8 +27,29 @@ Complexity: Worst Case = O(n log n)
 
 ## 2. Registration System ([4 C](http://codeforces.com/contest/4/problem/C))  
 [Submission](http://codeforces.com/contest/4/submission/43793794)  
+A new service is opening and they need our help to implement a registration system. The system doesn't allow two user to use a same name, so in order to differentiate two different users who has the same name, we'll add numbers after the name (John, John1, John2).
 
-TEXT
+First input will decide how many *n* users that is registering. The next lines will let the user input the names, amount of inputs depends on *n*.
+
+If it's the first time a name is registered, it will output "OK". If someone else had registered it though, it will output the name + entered_names[name].
+
+Example input:
+```
+5
+Phil
+Daisy
+Phil
+Fitz
+Phil
+```
+The output will be:
+```
+OK
+OK
+Phil1
+OK
+Phil2
+```
 
 ## 3. Christmas Spruce ([913 B](http://codeforces.com/contest/913/problem/B))  
 [Submission](http://codeforces.com/contest/913/submission/43794900)  
