@@ -19,9 +19,9 @@ input 3: 1            # Employee 2 which boss is Employee 1
 4
 ```
 This will output 3, because there are 3 groups in this arrangement of employees:
-- Employee 1 and 5
-- Employee 2 and 3
-- Employee 4
+1. Employee 1 and 5
+2. Employee 2 and 3
+3. Employee 4
 
 Complexity: Worst Case = O(n log n)
 
