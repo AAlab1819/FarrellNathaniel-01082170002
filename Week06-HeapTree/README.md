@@ -29,5 +29,5 @@ First *n* line lets us decide how many topics do we have. After that, *n* lines 
 
 The program will pick 5 topics from all the topics that had the highest *change*s, then print the picked topics with the ID and the new score. The topic with highest *change*s will be sorted to the top. For two topics that had the same amount of *change*, the higher ID topic will be chosen.
 
-Complexity:
+Complexity:  
 Worst Case = O(n log n)
