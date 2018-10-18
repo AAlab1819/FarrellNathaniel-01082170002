@@ -19,6 +19,15 @@ Output should be:
 ```
 Everytime a number is added to the list, it's automatically heapSorted to the list.
 
-Complexity: Worst Case = O(n log n)
+Complexity:  
+Worst Case = O(n log n)
 
-## 2. [Roy and Trending Topics](https://www.hackerearth.com/practice/data-structures/trees/heapspriority-queues/practice-problems/algorithm/roy-and-trending-topics-1/)
+## 2. [Roy and Trending Topics](https://www.hackerearth.com/practice/data-structures/trees/heapspriority-queues/practice-problems/algorithm/roy-and-trending-topics-1/)  
+Roy is developing a widget that shows the Trending Topics of that day. Each topic has an ID and a score. Trending Topics will choose Top 5 topics that had the most increases of score that day compared to the day before. If two topics had the same amount of increases, the one with higher ID is chosen. The changes that affects the score of topics are: **Post** mentions (**50**), **Likes** (**5**), **Comments** (**10**), and **Shares** (**20**).
+
+First *n* line lets us decide how many topics do we have. After that, *n* lines of input follows, each containing 6 space separated numbers for id, z, p, l, c, s.
+
+The program will pick 5 topics from all the topics that had the highest *change*s, then print the picked topics as the ID and the new score. The topic with highest *change*s will be sorted by top.
+
+Complexity:
+Worst Case = O(n log n)
