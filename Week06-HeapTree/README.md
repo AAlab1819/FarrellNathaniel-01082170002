@@ -1,7 +1,7 @@
 ## 1. [Find the Running Median](https://www.hackerrank.com/challenges/ctci-find-the-running-median/problem)  
-The problem just needs us to find the median of a list, however we start calculating the median from the first number input (in which there's only one element in the list), then we keep adding numbers to the list sequentially all while heapSorting the list until we reach *n* amount of input.
+The problem just needs us to find the median of a list, however we start calculating the median from the first number input (in which there's only one element in the list), then we keep adding numbers to the list sequentially all while heapSorting the list until we reach *n* amount of numbers.
 
-The first line input is to decide how long we want the list to be (*n*). Let's put an example of 4 numbers. Then after the first input, we can input n amount of numbers in the list.   
+The first line input is to decide how long we want the list to be (*n*). Let's put 4 numbers as an example. Then after the first input, we can input *n* amount of numbers in the list.   
 Input:
 ```
 4
