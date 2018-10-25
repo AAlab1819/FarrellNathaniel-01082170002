@@ -23,7 +23,7 @@ Complexity: Worst Case: O(n)
 Sereja wants to buy pizzas for his teams but only with coupons and discounts. The coupon works when Sereja buys one pizza in two consecutive days and the other discount works if Sereja buys two pizzas in the same day. Sereja can use many coupons as he wants but he doesn't want to have to order an extra pizza when there is no team to give to. If there's one active coupon that we need to fulfill in the coupon or discount, we'll call it *carrying*.
 
 The first inputs are *n* as the "days" and *teams* as the amount of teams that works on each days.  
-We'll do a for loop that first checks if there's no team attending the practice AND *carrying* is set to 1, that means we there will be a day when we're buying a pizza for no one and I guess pizzas in this universe can't last more than a day. So we'll instantly print NO and exit the loop from there.
+We'll do a for loop that first checks if there's no team attending the practice AND *carrying* is set to 1, that means there will be a day when we're buying a pizza for no one and I guess pizzas in this universe can't last more than a day. So we'll instantly print NO and exit the loop from there.
 
 The second if statement works to add pizzas into *carrying*, if we bought odd amount of pizzas, that means there's 1 pizza which we can't use the same-day discount and we'll have to use the two-day coupon. That means in the next day, there has to be at least 1 pizza to fulfill the coupon otherwise the first *if* statement will trigger and NO will be printed.  
 But if not, the for loop will go to the second *if* statement again and if we happen to buy odd amount of pizzas, we can use the coupon that we used the previous day.
