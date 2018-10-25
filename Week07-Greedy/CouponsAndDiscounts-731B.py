@@ -1,7 +1,6 @@
 n = int(input())
 teams = [int(x) for x in input().split()]
 carrying = 0
-no_team = False
 
 for i in range(n):
     if teams[i] == 0 and carrying == 1:
