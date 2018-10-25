@@ -28,7 +28,7 @@ We'll do a for loop that first checks if there's no team attending the practice 
 The second if statement works to add pizzas into *carrying*, if we bought odd amount of pizzas, that means there's 1 pizza which we can't use the same-day discount and we'll have to use the two-day coupon. That means in the next day, there has to be at least 1 pizza to fulfill the coupon otherwise the first *if* statement will trigger and NO will be printed.  
 But if not, the for loop will go to the second *if* statement again and if we happen to buy odd amount of pizzas, we can use the coupon that we used the previous day.
 
-As long as in the loop there's not a day that we have to buy an extra pizza just to fulfill the coupon or discount (which means *carrying* stays 0 until the end of *n* days), YES will be printed.
+As long as in the loop there's not a day that we have to buy an extra pizza just to fulfill the coupon or discount (which means *carrying* is 0 when the loop reaches end of *n* days), YES will be printed.
 
 Complexity: Worst Case: O(n)
 
