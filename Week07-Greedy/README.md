@@ -5,3 +5,4 @@
 [Submission](http://codeforces.com/contest/978/submission/44844659)  
 
 ## 3. Coupons and Discounts ([731 B](http://codeforces.com/problemset/problem/731/B))
+[Submission](http://codeforces.com/contest/731/submission/44857846)
