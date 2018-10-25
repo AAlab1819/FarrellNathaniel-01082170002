@@ -19,7 +19,7 @@ When the loop is done, print *ans*.
 Complexity: Worst Case: O(n)
 
 ## 3. Coupons and Discounts ([731 B](http://codeforces.com/problemset/problem/731/B))
-[Submission](http://codeforces.com/contest/731/submission/44857846)
+[Submission](http://codeforces.com/contest/731/submission/44857846)  
 Sereja wants to buy pizzas for his teams but only with coupons and discounts. The coupon works when Sereja buys one pizza in two consecutive days and the other discount works if Sereja buys two pizzas in the same day. Sereja can use many coupons as he wants but he doesn't want to have to order an extra pizza when there is no team to give to. If there's one active coupon that we need to fulfill in the coupon or discount, we'll call it *carrying*.
 
 The first inputs are *n* as the "days" and *teams* as the amount of teams that works on each days.  
