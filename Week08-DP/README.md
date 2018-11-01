@@ -14,4 +14,6 @@ Complexity: Worst Case: O(n log n)
 [Submission](http://codeforces.com/contest/913/submission/45177614)  
 We have to buy lemonade for a New Year party. The store sells different types of liters per bottle at different costs. There are unlimited amount of bottles in the store. We need to buy at least *L* liters, with the smallest number of roubles to spend to obtain that volume.
 
+The first input is a space-separated integer, first input is n, the amount of different types of volumes in the store. L is the least amount of volume we need. It seems we are allowed to buy more than that as long the cost is lower.
 
+Complexity: Worst Case : O(n)
