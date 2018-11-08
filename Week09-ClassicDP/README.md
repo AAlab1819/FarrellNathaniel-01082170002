@@ -12,3 +12,9 @@ Then we'll print *max_value*.
 
 Complexity: Worst Case: O(n^2)
 
+## 2. Dollars ([UVa 147](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=83))
+Write a program that will determine the possible combinations for any given amount less than $300. Each amount is valid as long it's a multiple of 5c.  
+The program can be terminated by inputting 0.00, and the desired result will be outputted after the program is ended, consisting the amount of money and the possible combinations that amount can be made up of.
+
+We put all the combinations of coins into an array, then we increase the count.
+We'll do this with all specific coin(s).
