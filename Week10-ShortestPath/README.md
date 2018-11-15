@@ -22,3 +22,11 @@ Complexity Worst Case: O(n log n)
 
 ## 2. The Two Routes ([601 A](http://codeforces.com/problemset/problem/601/A))  
 [Solution](http://codeforces.com/problemset/submission/601/45771218)  
+We need to find the minimum amount of time for both train and bus to reach the last town. The train and bus CANNOT meet at the same town simultaneously to avoid accidents, except for the last town. If it's impossible for one of the vehicles to reach the last town in any way, print -1.
+
+The first input contains the amount of towns and the amount of railways connecting the towns. The next lines contains *u* and *v* as the two towns that connected with a railway. Only trains can go through railways. If there's a town that isn't connected by a railway, then a bus can go through there.
+
+We use adjacency matrix. One trip from town *u* to *v* means one hour of trip. Counting the trips of both vehicle, we need to know how many hours of trips does it take until the last vehicle reaches last town. We'll check if there's a railway from 1 to n town. If there's a railway, advance the train. If there's no railway, advance the bus.
+We'll use BFS to find shortest path to the last town from town 1. 
+
+Complexity Worst Case: O(n^2)
