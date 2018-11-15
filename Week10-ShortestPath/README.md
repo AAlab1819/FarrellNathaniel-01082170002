@@ -18,4 +18,7 @@ The shortest paths are 1 4 and 3 5 because of their low cost. So
 ``` 
 is printed.
 
-## 2. The Two Routes ([601 A](http://codeforces.com/problemset/problem/601/A))
+Complexity Worst Case: O(n log n)
+
+## 2. The Two Routes ([601 A](http://codeforces.com/problemset/problem/601/A))  
+[Solution](http://codeforces.com/problemset/submission/601/45771218)  
